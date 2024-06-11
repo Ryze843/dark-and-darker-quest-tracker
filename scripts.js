@@ -6,8 +6,6 @@ const quests = [
 
 const playerItems = {};
 
-const getRequiredAmount = item => quests.flatMap(q => q.requirements).filter(i => i === item).length;
-
 function render() {
     const merchants = {};
     quests.forEach(q => merchants[q.merchant] = (merchants[q.merchant] || []).concat(q));
@@ -40,7 +38,7 @@ function render() {
 }
 
 function increaseItem(item) {
-    const requiredAmount = getRequiredAmount(item);
+    const requiredAmount = quests.flatMap(q => q.requirements).filter(i => i === item).length;
     playerItems[item] = Math.min((playerItems[item] || 0) + 1, requiredAmount);
     render();
 }
@@ -52,7 +50,7 @@ function decreaseItem(item) {
 
 function markQuestCompleted(index) {
     const quest = quests[index];
-    if (quest.requirements.every(item => (playerItems[item] || 0) >= getRequiredAmount(item))) {
+    if (quest.requirements.every(item => (playerItems[item] || 0) >= quests.flatMap(q => q.requirements).filter(i => i === item).length)) {
         quest.completed = true;
         render();
     } else {
