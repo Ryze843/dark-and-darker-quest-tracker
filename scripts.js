@@ -8,38 +8,52 @@ const playerItems = {};
 
 function render() {
     const merchants = {};
-    quests.forEach(q => merchants[q.merchant] = (merchants[q.merchant] || []).concat(q));
-    
+    quests.forEach((q, i) => merchants[q.merchant] = (merchants[q.merchant] || []).concat({ ...q, index: i }));
+
     const questsContainer = document.getElementById('quests');
     questsContainer.innerHTML = Object.entries(merchants).map(([merchant, quests]) => `
         <div><h3>${merchant}</h3>
-            ${quests.map((q, i) => `
-                <div class="quest ${q.completed ? 'completed' : ''}">
+            ${quests.map(q => {
+        const collectedItems = q.requirements.filter(item => (playerItems[item] || 0) > 0);
+        const remainingItems = q.requirements.filter(item => !collectedItems.includes(item));
+        return `
+                <div class="quest ${q.completed ? 'completed minimized' : ''}">
                     <h4>${q.name} - ${q.completed ? 'Completed' : 'Incomplete'}</h4>
-                    <div class="requirements">Requirements: ${q.requirements.join(', ')}</div>
-                    <div>Collected: ${q.requirements.filter(item => playerItems[item] > 0).join(', ')}</div>
-                    <button onclick="markQuestCompleted(${i})" ${q.completed ? 'disabled' : ''}>Mark as Completed</button>
-                </div>`).join('')}
-        </div>`).join('');
-
-    const items = quests.flatMap(q => q.requirements).reduce((acc, item) => (acc[item] = (acc[item] || 0) + 1, acc), {});
-    
-    const itemList = document.getElementById('item-list');
-    itemList.innerHTML = Object.entries(items).map(([item, count]) => `
-        <div class="item">
-            <h4>${item}</h4>
-            <div>Required: ${count}</div>
-            <div class="item-controls">
-                <button onclick="decreaseItem('${item}')">-</button>
-                <span id="item-${item}">${playerItems[item] || 0}/${count}</span>
-                <button onclick="increaseItem('${item}')">+</button>
-            </div>
+                    <div class="details">
+                        <div class="requirements">Requirements: ${remainingItems.join(', ')}</div>
+                        <div>Collected: ${collectedItems.join(', ')}</div>
+                        <div class="item-list">
+                            ${q.requirements.map(item => `
+                                <div class="item">
+                                    <h4>${item}</h4>
+                                    <div>Required: 1</div>
+                                    <div class="item-controls">
+                                        <button onclick="decreaseItem('${item}')">-</button>
+                                        <span id="item-${item}">${playerItems[item] || 0}/1</span>
+                                        <button onclick="increaseItem('${item}')">+</button>
+                                    </div>
+                                </div>`).join('')}
+                        </div>
+                    </div>
+                    <button onclick="${q.completed ? `markQuestIncomplete(${q.index})` : `markQuestCompleted(${q.index})`}">
+                        ${q.completed ? 'Mark as Incomplete' : 'Mark as Completed'}
+                    </button>
+                </div>`;
+    }).join('')}
         </div>`).join('');
 }
 
 function increaseItem(item) {
     const requiredAmount = quests.flatMap(q => q.requirements).filter(i => i === item).length;
     playerItems[item] = Math.min((playerItems[item] || 0) + 1, requiredAmount);
+
+    // Check if any quest can be marked as completed
+    quests.forEach((quest, index) => {
+        if (!quest.completed && quest.requirements.every(req => (playerItems[req] || 0) >= quests.flatMap(q => q.requirements).filter(i => i === req).length)) {
+            markQuestCompleted(index);
+        }
+    });
+
     render();
 }
 
@@ -50,12 +64,20 @@ function decreaseItem(item) {
 
 function markQuestCompleted(index) {
     const quest = quests[index];
-    if (quest.requirements.every(item => (playerItems[item] || 0) >= quests.flatMap(q => q.requirements).filter(i => i === item).length)) {
-        quest.completed = true;
-        render();
-    } else {
-        alert('You don\'t have all the required items to complete this quest.');
-    }
+    quest.requirements.forEach(item => {
+        playerItems[item] = quests.flatMap(q => q.requirements).filter(i => i === item).length;
+    });
+    quest.completed = true;
+    render();
+}
+
+function markQuestIncomplete(index) {
+    const quest = quests[index];
+    quest.requirements.forEach(item => {
+        playerItems[item] = 0;
+    });
+    quest.completed = false;
+    render();
 }
 
 document.addEventListener('DOMContentLoaded', render);
