@@ -63,6 +63,11 @@ button:hover {
     margin: 10px 0;
 }
 
+    .quest.minimized .details {
+        display: none;
+    }
+
+
 .item-controls {
     display: flex;
     align-items: center;
