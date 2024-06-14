@@ -1,28 +1,43 @@
+@font-face {
+    font-family: 'Steravina';
+    src: url('/images/Steravina.ttf') format('truetype');
+}
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #121212;
-    color: #ffffff;
+    font-family: 'Steravina', Arial, sans-serif;
+    background-image: url("/images/DADBG.webp");
+    background-attachment: fixed; 
+    color: rgb(221, 149, 42);
     display: flex;
     justify-content: center;
     align-items: flex-start;
     height: 100vh;
-    margin: 0;
     padding: 20px;
+    margin: 0;
     box-sizing: border-box;
+    overflow: -moz-scrollbars-none; /* For older versions of Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+    overflow-y: scroll; /* Ensure vertical scroll is always enabled */
+    scrollbar-width: none; /* Firefox */
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 .container {
-    max-width: 800px;
     width: 100%;
 }
 
 h1 {
     text-align: center;
     margin-bottom: 20px;
+    color: rgb(221, 149, 42);
 }
 
 h2 {
     margin-top: 20px;
+    color: rgb(221, 149, 42);
 }
 
 .controls {
@@ -30,43 +45,41 @@ h2 {
 }
 
 button {
+    font-family: 'Steravina', Arial, sans-serif;
     padding: 5px 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #444;
-    color: #fff;
+    border: 1px solid rgb(221, 149, 42);
+    border-radius: 2px;
+    background-color: #00000000;
+    color: rgb(221, 149, 42);
     cursor: pointer;
     margin: 0 5px;
 }
 
 button:hover {
-    background-color: #555;
+    background-color: rgb(221, 149, 42);
+    color: #121212;
 }
 
 .quest, .item {
-    border: 1px solid #444;
+    border: 1px solid rgb(221, 149, 42);
     padding: 10px;
     margin: 10px 0;
-    border-radius: 5px;
-    background-color: #1a1a1a;
-}
-
-.quest.completed {
-    background-color: #333;
+    border-radius: 2px;
 }
 
 .quest h4, .item h4 {
     margin: 0 0 10px;
+    color: rgb(221, 149, 42);
 }
 
 .quest .requirements, .item .requirements {
     margin: 10px 0;
+    color: rgb(221, 149, 42);
 }
 
-    .quest.minimized .details {
-        display: none;
-    }
-
+.quest.minimized .details {
+    display: none;
+}
 
 .item-controls {
     display: flex;
@@ -75,4 +88,59 @@ button:hover {
 
 .item-controls span {
     margin: 0 10px;
+    color: rgb(221, 149, 42);
+}
+
+.merchant-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.merchant-button {
+    max-width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-position: center;
+    border: 2px solid rgb(221, 149, 42);
+    border-radius: 1px;
+    cursor: pointer;
+    flex: 1 1 calc(16.666% - 20px);
+    box-sizing: border-box;
+    filter: grayscale(100%) brightness(30%);
+    transition: filter 0.3s ease, box-shadow 0.3s ease;
+}
+
+.merchant-button:hover, .merchant-button.active {
+    filter: grayscale(0%) brightness(100%);
+    box-shadow: 0 0 15px 5px rgba(221, 149, 42);
+}
+
+.quest-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.quest .quest-complete-button {
+    align-self: center;
+    margin-top: 10px;
+    width: fit-content;
+}
+
+.quest {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+    max-width: 500px;
+    border: 1px solid rgb(221, 149, 42);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 2px;
+    background-color:#0000009a
 }

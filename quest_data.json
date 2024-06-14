@@ -1,1512 +1,1314 @@
 [
     {
         "name": "A Father's Legacy",
-        "prerequisites": "",
-        "tasks": [
-            "Fetch Any Rarity Potion of Healing (1x)Fetch Any Rarity Potion of Protection (1x)Fetch Any Rarity Potion of Invisibility (1x)"
+        "requirements": [
+            "Fetch Any Rarity Potion of Healing (1x)",
+            "Fetch Any Rarity Potion of Protection (1x)",
+            "Fetch Any Rarity Potion of Invisibility (1x)"
         ],
-        "rewards": [
-            "50 Unique Gold Coin3 Uncommon Potion of Invisibility3 Uncommon Potion of Protection25 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Alchemist"
     },
     {
         "name": "Golden Opportunity",
-        "prerequisites": "Complete Quest:\"A Father's Legacy\"",
-        "tasks": [
-            "Kill Ice Kobold Axeman (5x)Kill Ice Kobold Archer (5x)"
+        "requirements": [
+            "Kill Ice Kobold Axeman (5x)",
+            "Kill Ice Kobold Archer (5x)"
         ],
-        "rewards": [
-            "50 Unique Gold Coin1 Uncommon Ring of Finesse1 Uncommon Falchion25 Experience"
-        ]
+        "completed": false,
+        "merchant": "Alchemist"
     },
     {
         "name": "Frozen Secrets",
-        "prerequisites": "Complete Quest:\"Golden Opportunity\"",
-        "tasks": [
+        "requirements": [
             "Explore Ice Caverns Wolf Cave module (1x) (must escape)"
         ],
-        "rewards": [
-            "50 Unique Gold Coin2 Common Wolf Pelt1 Uncommon Frost Amulet25 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Alchemist"
     },
     {
         "name": "In The Walls",
-        "prerequisites": "",
-        "tasks": [
+        "requirements": [
             "Explore Crypts Dark Magic Library module (1x) (must escape)"
         ],
-        "rewards": [
-            "100 Unique Gold Coin1 Rare Spellbook1 Rare Owl Pendant125 Experience"
-        ]
+        "completed": false,
+        "merchant": "Alchemist"
     },
     {
         "name": "Mystic Inquiries",
-        "prerequisites": "Complete Quest:\"In The Walls\"",
-        "tasks": [
-            "Kill Wizard (1x)Kill Warlock (1x)"
+        "requirements": [
+            "Kill Wizard (1x)",
+            "Kill Warlock (1x)"
         ],
-        "rewards": [
-            "100 Unique Gold Coin1 Rare Shadow Hood1 Rare Mystic Gloves150 Experience"
-        ]
+        "completed": false,
+        "merchant": "Alchemist"
     },
     {
         "name": "Odd Ingredients",
-        "prerequisites": "Complete Quest:\"Mystic Inquiries\"",
-        "tasks": [
-            "Fetch Any Rarity Intact Skull (6x)Fetch Any Rarity Mimic Tooth (2x)Fetch Any Rarity Moldy Bread (6x)"
+        "requirements": [
+            "Fetch Any Rarity Intact Skull (6x)",
+            "Fetch Any Rarity Mimic Tooth (2x)",
+            "Fetch Any Rarity Moldy Bread (6x)"
         ],
-        "rewards": [
-            "100 Unique Gold Coin1 Rare Falchion1 Rare Turnshoe150 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Alchemist"
     },
     {
         "name": "Potion Trials",
-        "prerequisites": "Complete Quest:\"Odd Ingredients\"",
-        "tasks": [
-            "Use Item Potion of Healing in Crypts dungeon (1x) (must escape) (single session)Use Item Potion of Protection in Crypts dungeon (1x) (must escape) (single session)Use Item Potion of Invisibility in Crypts dungeon (1x) (must escape) (single session)Use Item Magic Protection Potion in Crypts dungeon (1x) (must escape) (single session)"
+        "requirements": [
+            "Use Item Potion of Healing in Crypts dungeon (1x) (must escape) (single session)",
+            "Use Item Potion of Protection in Crypts dungeon (1x) (must escape) (single session)",
+            "Use Item Potion of Invisibility in Crypts dungeon (1x) (must escape) (single session)",
+            "Use Item Magic Protection Potion in Crypts dungeon (1x) (must escape) (single session)"
         ],
-        "rewards": [
-            "175 Unique Gold Coin1 Epic Ring of Resolve1 Epic Loose Trousers200 Experience"
-        ]
+        "completed": false,
+        "merchant": "Alchemist"
     },
     {
         "name": "Winged Nuisances",
-        "prerequisites": "Complete Quest:\"Potion Trials\"",
-        "tasks": [
+        "requirements": [
             "Kill Death Skull in Crypts dungeon (10x) (single session)"
         ],
-        "rewards": [
-            "175 Unique Gold Coin1 Epic Buckler1 Epic Halberd250 Experience"
-        ]
+        "completed": false,
+        "merchant": "Alchemist"
     },
     {
         "name": "Sovereign's Curse",
-        "prerequisites": "Complete Quest:\"Winged Nuisances\"",
-        "tasks": [
-            "Kill Ghost King (1x)Kill Demon Berserker (5x)"
+        "requirements": [
+            "Kill Ghost King (1x)",
+            "Kill Demon Berserker (5x)"
         ],
-        "rewards": [
-            "175 Unique Gold Coin1 Legend Recurve Bow1 Legend Magic Staff500 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Alchemist"
     },
     {
         "name": "Lion's Lair",
-        "prerequisites": "Complete Quest:\"Sovereign's Curse\"",
-        "tasks": [
+        "requirements": [
             "Interact with Golden Chest in Goblin Caves dungeon (12x)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Epic Hatchet1 Epic Stiletto Dagger300 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Alchemist"
     },
     {
         "name": "Endure And Prevail",
-        "prerequisites": "Complete Quest:\"Lion's Lair\"",
-        "tasks": [
+        "requirements": [
             "Survive Goblin Caves dungeon (12x)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Legend Adventurer Boots1 Legend Wizard Shoes350 Experience"
-        ]
+        "completed": false,
+        "merchant": "Alchemist"
     },
     {
         "name": "Battling Behemoths",
-        "prerequisites": "Complete Quest:\"Endure And Prevail\"",
-        "tasks": [
-            "Kill Cave Troll (2x)Kill Cyclops (2x)"
+        "requirements": [
+            "Kill Cave Troll (2x)",
+            "Kill Cyclops (2x)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Legend Splendid Cloak1 Legend Tattered Cloak1000 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Alchemist"
     },
     {
         "name": "Mining For Piece of Mind",
-        "prerequisites": "",
-        "tasks": [
+        "requirements": [
             "Fetch Any Rarity Cobalt Ore (6x)"
         ],
-        "rewards": [
-            "75 Unique Gold Coin1 Rare Templar Armor1 Rare Plate Pants50 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Armourer"
     },
     {
         "name": "Facing Your Fears",
-        "prerequisites": "Complete Quest:\"Mining For Piece of Mind\"",
-        "tasks": [
+        "requirements": [
             "Kill Undead Skeleton (15x)"
         ],
-        "rewards": [
-            "75 Unique Gold Coin1 Rare Ox Pendant2 Uncommon Pickaxe50 Experience"
-        ]
+        "completed": false,
+        "merchant": "Armourer"
     },
     {
         "name": "Not A Coward",
-        "prerequisites": "Complete Quest:\"Facing Your Fears\"",
-        "tasks": [
+        "requirements": [
             "Survive Crypts dungeon (4x)"
         ],
-        "rewards": [
-            "75 Unique Gold Coin1 Rare Chapel De Fer1 Rare Plate Boots75 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Armourer"
     },
     {
         "name": "Fire Within",
-        "prerequisites": "",
-        "tasks": [
+        "requirements": [
             "Fetch Any Rarity Rubysilver Ore (6x)"
         ],
-        "rewards": [
-            "125 Unique Gold Coin1 Epic Dark Cuirass1 Epic Vigilant Cloak175 Experience"
-        ]
+        "completed": false,
+        "merchant": "Armourer"
     },
     {
         "name": "Braving The Shadows",
-        "prerequisites": "Complete Quest:\"Fire Within\"",
-        "tasks": [
-            "Kill Rogue (1x)Kill Cleric (1x)"
+        "requirements": [
+            "Kill Rogue (1x)",
+            "Kill Cleric (1x)"
         ],
-        "rewards": [
-            "125 Unique Gold Coin1 Epic Rapier1 Epic Spangenhelm200 Experience"
-        ]
+        "completed": false,
+        "merchant": "Armourer"
     },
     {
         "name": "Green-Skinned Scum",
-        "prerequisites": "Complete Quest:\"Braving The Shadows\"",
-        "tasks": [
-            "Kill Goblin Axeman (10x)Kill Goblin Archer (10x)"
+        "requirements": [
+            "Kill Goblin Axeman (10x)",
+            "Kill Goblin Archer (10x)"
         ],
-        "rewards": [
-            "125 Unique Gold Coin1 Epic Club1 Epic Fine Cuirass175 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Armourer"
     },
     {
         "name": "Quality Over Quantity",
-        "prerequisites": "Complete Quest:\"Green-Skinned Scum\"",
-        "tasks": [
+        "requirements": [
             "Fetch Epic Armor (5x)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Epic Buckler1 Epic Crystal Ball300 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Armourer"
     },
     {
         "name": "Unscathed Escape",
-        "prerequisites": "Complete Quest:\"Quality Over Quantity\"",
-        "tasks": [
+        "requirements": [
             "Survive Crypts dungeon (3x)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Legend Ring of Resolve1 Legend Ring of Vitality350 Experience"
-        ]
+        "completed": false,
+        "merchant": "Armourer"
     },
     {
         "name": "Beyond Death's Grasp",
-        "prerequisites": "Complete Quest:\"Unscathed Escape\"",
-        "tasks": [
+        "requirements": [
             "Kill Lich (3x)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Legend Ornate Jazerant1 Legend Champion Armor1000 Experience50 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Armourer"
     },
     {
         "name": "Flamecraft Essentials",
-        "prerequisites": "",
-        "tasks": [
-            "Fetch Any Rarity Old Cloth (1x)Fetch Any Rarity Bowstring (2x)"
+        "requirements": [
+            "Fetch Any Rarity Old Cloth (1x)",
+            "Fetch Any Rarity Bowstring (2x)"
         ],
-        "rewards": [
-            "50 Unique Gold Coin1 Uncommon Crystal Ball3 Common Potion of Healing40 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Fortune Teller"
     },
     {
         "name": "Hidden Destiny",
-        "prerequisites": "Complete Quest:\"Flamecraft Essentials\"",
-        "tasks": [
+        "requirements": [
             "Survive Goblin Caves dungeon (3x)"
         ],
-        "rewards": [
-            "50 Unique Gold Coin4 Uncommon Francisca Axe4 Uncommon Throwing Knife25 Experience"
-        ]
+        "completed": false,
+        "merchant": "Fortune Teller"
     },
     {
         "name": "Pulling Back The Veil",
-        "prerequisites": "Complete Quest:\"Hidden Destiny\"",
-        "tasks": [
-            "Kill Mimic (3x)Kill Death Skull (3x)Kill Death Beetle (3x)"
+        "requirements": [
+            "Kill Mimic (3x)",
+            "Kill Death Skull (3x)",
+            "Kill Death Beetle (3x)"
         ],
-        "rewards": [
-            "50 Unique Gold Coin1 Uncommon Ring of Vitality3 Uncommon Potion of Luck40 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Fortune Teller"
     },
     {
         "name": "Sacrifices Must Be Made",
-        "prerequisites": "",
-        "tasks": [
+        "requirements": [
             "Interact with Altar of Sacrifice (3x)"
         ],
-        "rewards": [
-            "100 Unique Gold Coin1 Rare Recurve Bow1 Rare Padded Leggings150 Experience"
-        ]
+        "completed": false,
+        "merchant": "Fortune Teller"
     },
     {
         "name": "Mystic Insights",
-        "prerequisites": "Complete Quest:\"Sacrifices Must Be Made\"",
-        "tasks": [
+        "requirements": [
             "Explore Ice Caverns Icicle Cave module (1x) (must escape)"
         ],
-        "rewards": [
-            "100 Unique Gold Coin1 Rare Studded Leather1 Rare Pourpoint125 Experience"
-        ]
+        "completed": false,
+        "merchant": "Fortune Teller"
     },
     {
         "name": "Faith In The Unknown",
-        "prerequisites": "Complete Quest:\"Mystic Insights\"",
-        "tasks": [
-            "Fetch Rare Crystal Ball (3x)Fetch Any Rarity Rotten Fluids (1x)"
+        "requirements": [
+            "Fetch Rare Crystal Ball (3x)",
+            "Fetch Any Rarity Rotten Fluids (1x)"
         ],
-        "rewards": [
-            "100 Unique Gold Coin1 Rare Crystal Sword1 Rare Hand Crossbow150 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Fortune Teller"
     },
     {
         "name": "Obscured Paths",
-        "prerequisites": "Complete Quest:\"Faith In The Unknown\"",
-        "tasks": [
+        "requirements": [
             "Interact with Torch in Crypts dungeon (12x) (single session)"
         ],
-        "rewards": [
-            "175 Unique Gold Coin1 Epic Dark Plate Armor1 Epic Barbuta Helm200 Experience"
-        ]
+        "completed": false,
+        "merchant": "Fortune Teller"
     },
     {
         "name": "Webs Of Darkness",
-        "prerequisites": "Complete Quest:\"Obscured Paths\"",
-        "tasks": [
+        "requirements": [
             "Destroy Spider Pot in Crypts dungeon (2x) (single session)"
         ],
-        "rewards": [
-            "175 Unique Gold Coin1 Epic Bear Pendant1 Epic Low Boots200 Experience"
-        ]
+        "completed": false,
+        "merchant": "Fortune Teller"
     },
     {
         "name": "Tide Of Darkness",
-        "prerequisites": "Complete Quest:\"Webs Of Darkness\"",
-        "tasks": [
-            "Kill Skeleton Warlord (1x)Kill Demon Dog (8x)"
+        "requirements": [
+            "Kill Skeleton Warlord (1x)",
+            "Kill Demon Dog (8x)"
         ],
-        "rewards": [
-            "175 Unique Gold Coin1 Legend Falchion1 Legend Club500 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Fortune Teller"
     },
     {
         "name": "Veiled Ones",
-        "prerequisites": "Complete Quest:\"Tide Of Darkness\"",
-        "tasks": [
-            "Kill Undead Skeleton in Ice Caverns dungeon (7x) (single session)Kill Beast Kobold in Ice Caverns dungeon (7x) (single session)"
+        "requirements": [
+            "Kill Undead Skeleton in Ice Caverns dungeon (7x) (single session)",
+            "Kill Beast Kobold in Ice Caverns dungeon (7x) (single session)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Epic Crossbow1 Epic Felling Axe350 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Fortune Teller"
     },
     {
         "name": "Visit From A Strix",
-        "prerequisites": "Complete Quest:\"Veiled Ones\"",
-        "tasks": [
-            "Use Item Epic Potion of Luck in Ice Caverns dungeon (3x)Interact with Treasure Hoard 10 (4x)"
+        "requirements": [
+            "Use Item Epic Potion of Luck in Ice Caverns dungeon (3x)",
+            "Interact with Treasure Hoard 10 (4x)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Legend Doublet1 Legend Oracle Robe350 Experience"
-        ]
+        "completed": false,
+        "merchant": "Fortune Teller"
     },
     {
         "name": "Something Big",
-        "prerequisites": "Complete Quest:\"Visit From A Strix\"",
-        "tasks": [
+        "requirements": [
             "Survive Ice Caverns dungeon (1x)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Legend Heavy Boots1 Legend Turnshoe1000 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Fortune Teller"
     },
     {
         "name": "Mystic Endeavor",
-        "prerequisites": "Complete Quest:\"Tide Of Darkness\"",
-        "tasks": [
-            "Interact with Floor Spikes in Crypts dungeon (10x)Use Item Potion of Luck in Crypts dungeon (1x)"
+        "requirements": [
+            "Interact with Floor Spikes in Crypts dungeon (10x)",
+            "Use Item Potion of Luck in Crypts dungeon (1x)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Epic Kris Dagger1 Epic Halberd300 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Fortune Teller"
     },
     {
         "name": "Sanctified Rituals",
-        "prerequisites": "Complete Quest:\"Mystic Endeavor\"",
-        "tasks": [
-            "Interact with Shrine of Health in Crypts dungeon (2x) (single session)Interact with Altar of Sacrifice in Crypts dungeon (1x) (single session)"
+        "requirements": [
+            "Interact with Shrine of Health in Crypts dungeon (2x) (single session)",
+            "Interact with Altar of Sacrifice in Crypts dungeon (1x) (single session)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Legend Darkleaf Boots1 Legend Pourpoint350 Experience"
-        ]
+        "completed": false,
+        "merchant": "Fortune Teller"
     },
     {
         "name": "The Dark Hunt",
-        "prerequisites": "Complete Quest:\"Sanctified Rituals\"",
-        "tasks": [
-            "Fetch Any Rarity Demon Dog Thorn (1x)Fetch Any Rarity Bat Claw (1x)"
+        "requirements": [
+            "Fetch Any Rarity Demon Dog Thorn (1x)",
+            "Fetch Any Rarity Bat Claw (1x)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Legend Elkwood Gloves1 Legend Cloth Pants500 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Fortune Teller"
     },
     {
         "name": "Away With The Green Skins",
-        "prerequisites": "",
-        "tasks": [
-            "Kill Goblin Axeman (5x)Kill Goblin Warrior (5x)Kill Goblin Archer (5x)"
+        "requirements": [
+            "Kill Goblin Axeman (5x)",
+            "Kill Goblin Warrior (5x)",
+            "Kill Goblin Archer (5x)"
         ],
-        "rewards": [
-            "50 Unique Gold Coin3 Common Bandage1 Uncommon Laced Turnshoe25 Experience"
-        ]
+        "completed": false,
+        "merchant": "Goblin Merchant"
     },
     {
         "name": "Secrets Of The Dead",
-        "prerequisites": "Complete Quest:\"Away With The Green Skins\"",
-        "tasks": [
+        "requirements": [
             "Explore Goblin Caves Cave Altar module (1x) (must escape)"
         ],
-        "rewards": [
-            "50 Unique Gold Coin1 Uncommon Spellbook1 Uncommon Magic Staff25 Experience"
-        ]
+        "completed": false,
+        "merchant": "Goblin Merchant"
     },
     {
         "name": "A Goblin's Pride",
-        "prerequisites": "Complete Quest:\"Secrets Of The Dead\"",
-        "tasks": [
+        "requirements": [
             "Fetch Any Rarity Goblin Ear (10x)"
         ],
-        "rewards": [
-            "50 Unique Gold Coin1 Rare Mercurial Cloak40 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Goblin Merchant"
     },
     {
         "name": "My Favorite Fleshy",
-        "prerequisites": "",
-        "tasks": [
+        "requirements": [
             "Kill Player in Goblin Caves dungeon (5x)"
         ],
-        "rewards": [
-            "75 Unique Gold Coin3 Common Surgical Kit3 Common Oil Lantern75 Experience"
-        ]
+        "completed": false,
+        "merchant": "Goblin Merchant"
     },
     {
         "name": "Killing Critters",
-        "prerequisites": "Complete Quest:\"My Favorite Fleshy\"",
-        "tasks": [
-            "Kill Goblin Mage (5x)Kill Giant Centipede (2x)Kill Giant Spider (2x)"
+        "requirements": [
+            "Kill Goblin Mage (5x)",
+            "Kill Giant Centipede (2x)",
+            "Kill Giant Spider (2x)"
         ],
-        "rewards": [
-            "75 Unique Gold Coin1 Unique Gold Coin Bag50 Experience"
-        ]
+        "completed": false,
+        "merchant": "Goblin Merchant"
     },
     {
         "name": "Step by Step",
-        "prerequisites": "Complete Quest:\"Killing Critters\"",
-        "tasks": [
+        "requirements": [
             "Survive Goblin Caves dungeon (2x)"
         ],
-        "rewards": [
-            "75 Unique Gold Coin1 Rare Rawhide Gloves1 Rare Wind Locket50 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Goblin Merchant"
     },
     {
         "name": "Buggy Bonds",
-        "prerequisites": "Complete Quest:\"Step by Step\"",
-        "tasks": [
-            "Fetch Any Rarity Bug Shell (1x)Fetch Any Rarity Beetle Wings (2x)"
+        "requirements": [
+            "Fetch Any Rarity Bug Shell (1x)",
+            "Fetch Any Rarity Beetle Wings (2x)"
         ],
-        "rewards": [
-            "125 Unique Gold Coin1 Epic Ring of Courage1 Epic Light Gauntlets200 Experience"
-        ]
+        "completed": false,
+        "merchant": "Goblin Merchant"
     },
     {
         "name": "Crate Chaos",
-        "prerequisites": "Complete Quest:\"Buggy Bonds\"",
-        "tasks": [
+        "requirements": [
             "Destroy Small Wooden Crate in Goblin Caves dungeon (15x)"
         ],
-        "rewards": [
-            "125 Unique Gold Coin1 Epic Ring of Resolve1 Epic Bear Pendant175 Experience"
-        ]
+        "completed": false,
+        "merchant": "Goblin Merchant"
     },
     {
         "name": "Gobo Brawl",
-        "prerequisites": "Complete Quest:\"Crate Chaos\"",
-        "tasks": [
+        "requirements": [
             "Kill Beast Goblin in Goblin Caves dungeon (10x) (single session)"
         ],
-        "rewards": [
-            "125 Unique Gold Coin3 Epic Surgical Kit1 Epic Open Sallet200 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Goblin Merchant"
     },
     {
         "name": "Shiny Secrets",
-        "prerequisites": "Complete Quest:\"Gobo Brawl\"",
-        "tasks": [
+        "requirements": [
             "Interact with Lion's Head Chest in Goblin Caves dungeon (1x) (single session)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Epic Watchman Cloak1 Epic Stitched Turnshoe300 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Goblin Merchant"
     },
     {
         "name": "Gamba",
-        "prerequisites": "Complete Quest:\"Shiny Secrets\"",
-        "tasks": [
+        "requirements": [
             "Survive Goblin Caves dungeon (1x)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Legend Rapier1 Legend Spellbook350 Experience"
-        ]
+        "completed": false,
+        "merchant": "Goblin Merchant"
     },
     {
         "name": "One Eyed Foe",
-        "prerequisites": "Complete Quest:\"Gamba\"",
-        "tasks": [
+        "requirements": [
             "Kill Cyclops (1x)"
         ],
-        "rewards": [
-            "500 Unique Gold Coin1 Unique Gold Coin Bag1000 Experience50 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Goblin Merchant"
     },
     {
         "name": "Placeholder_Quest_GoblinMerchant_Title_13",
-        "prerequisites": "Complete Quest:\"One Eyed Foe\"",
-        "tasks": [
-            "Kill Beast Goblin in Goblin Caves dungeon (100x)Kill Giant Centipede in Goblin Caves dungeon (5x)Fetch Any Rarity Goblin Ear (20x)"
+        "requirements": [
+            "Kill Beast Goblin in Goblin Caves dungeon (100x)",
+            "Kill Giant Centipede in Goblin Caves dungeon (5x)",
+            "Fetch Any Rarity Goblin Ear (20x)"
         ],
-        "rewards": [
-            "Emote \"Coin Tossing\"1000 Experience"
-        ]
+        "completed": false,
+        "merchant": "Goblin Merchant"
     },
     {
         "name": "Gobo's Cavern Cleansing",
-        "prerequisites": "Complete Quest:\"One Eyed Foe\"",
-        "tasks": [
-            "Kill Giant Spider in Goblin Caves dungeon (25x)Kill Goblin Mage in Goblin Caves dungeon (10x)Fetch Any Rarity Beetle Wings (5x)"
+        "requirements": [
+            "Kill Giant Spider in Goblin Caves dungeon (25x)",
+            "Kill Goblin Mage in Goblin Caves dungeon (10x)",
+            "Fetch Any Rarity Beetle Wings (5x)"
         ],
-        "rewards": [
-            "1000 Experience"
-        ]
+        "completed": false,
+        "merchant": "Goblin Merchant"
     },
     {
         "name": "Search And Rescue",
-        "prerequisites": "",
-        "tasks": [
+        "requirements": [
             "Survive Goblin Caves dungeon (6x)"
         ],
-        "rewards": [
-            "75 Unique Gold Coin1 Rare Leather Cap1 Rare Regal Gambeson75 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Leathersmith"
     },
     {
         "name": "One Step Closer",
-        "prerequisites": "Complete Quest:\"Search And Rescue\"",
-        "tasks": [
+        "requirements": [
             "Explore Goblin Caves Goblin Prisons A module (1x) (must escape)"
         ],
-        "rewards": [
-            "75 Unique Gold Coin1 Rare Lantern3 Common Oil Lantern50 Experience"
-        ]
+        "completed": false,
+        "merchant": "Leathersmith"
     },
     {
         "name": "Cap-tivating Adventures",
-        "prerequisites": "Complete Quest:\"One Step Closer\"",
-        "tasks": [
+        "requirements": [
             "Fetch Any Rarity Leather Cap (5x)"
         ],
-        "rewards": [
-            "75 Unique Gold Coin1 Rare Reinforced Gloves1 Rare Rugged Boots50 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Leathersmith"
     },
     {
         "name": "Hidden Truths",
-        "prerequisites": "",
-        "tasks": [
-            "Kill Frost Skeleton Archer (15x)Kill Frost Skeleton Crossbowman (7x)"
+        "requirements": [
+            "Kill Frost Skeleton Archer (15x)",
+            "Kill Frost Skeleton Crossbowman (7x)"
         ],
-        "rewards": [
-            "125 Unique Gold Coin1 Epic Longbow1 Epic Windlass Crossbow175 Experience"
-        ]
+        "completed": false,
+        "merchant": "Leathersmith"
     },
     {
         "name": "Brutish Truths",
-        "prerequisites": "Complete Quest:\"Hidden Truths\"",
-        "tasks": [
-            "Kill Fighter (1x)Kill Barbarian (1x)"
+        "requirements": [
+            "Kill Fighter (1x)",
+            "Kill Barbarian (1x)"
         ],
-        "rewards": [
-            "125 Unique Gold Coin1 Epic Falchion1 Epic Round Shield200 Experience"
-        ]
+        "completed": false,
+        "merchant": "Leathersmith"
     },
     {
         "name": "Frost-Covered Funds",
-        "prerequisites": "Complete Quest:\"Brutish Truths\"",
-        "tasks": [
+        "requirements": [
             "Interact with Oak Chest in Ice Caverns dungeon (10x) (must escape) (single session)"
         ],
-        "rewards": [
-            "125 Unique Gold Coin1 Epic Heavy Gambeson1 Epic Heavy Boots200 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Leathersmith"
     },
     {
         "name": "Beneath The Surface",
-        "prerequisites": "Complete Quest:\"Frost-Covered Funds\"",
-        "tasks": [
+        "requirements": [
             "Interact with Floor Spikes in Crypts dungeon (12x)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Epic Windlass Crossbow1 Epic Spear300 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Leathersmith"
     },
     {
         "name": "Golden Trails",
-        "prerequisites": "Complete Quest:\"Beneath The Surface\"",
-        "tasks": [
+        "requirements": [
             "Interact with Golden Chest in Crypts dungeon (15x)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Legend Open Sallet1 Legend Chaperon300 Experience"
-        ]
+        "completed": false,
+        "merchant": "Leathersmith"
     },
     {
         "name": "Long Live The King",
-        "prerequisites": "Complete Quest:\"Golden Trails\"",
-        "tasks": [
+        "requirements": [
             "Kill Ghost King (2x)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Legend Arming Sword1 Legend Spellbook1000 Experience50 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Leathersmith"
     },
     {
         "name": "Reliable Medicine",
-        "prerequisites": "",
-        "tasks": [
+        "requirements": [
             "Fetch Any Rarity Bandage (5x)"
         ],
-        "rewards": [
-            "50 Unique Gold Coin1 Uncommon Surgical Kit1 Uncommon Ring of Survival25 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Surgeon"
     },
     {
         "name": "Alchemy's Dangers",
-        "prerequisites": "Complete Quest:\"Reliable Medicine\"",
-        "tasks": [
-            "Kill Goblin Mage (3x)Kill Giant Centipede (1x)"
+        "requirements": [
+            "Kill Goblin Mage (3x)",
+            "Kill Giant Centipede (1x)"
         ],
-        "rewards": [
-            "50 Unique Gold Coin1 Uncommon Necklace of Peace1 Uncommon Ring of Vitality25 Experience"
-        ]
+        "completed": false,
+        "merchant": "Surgeon"
     },
     {
         "name": "Natural Aid",
-        "prerequisites": "Complete Quest:\"Alchemy's Dangers\"",
-        "tasks": [
+        "requirements": [
             "Explore Goblin Caves Stone Graves A module (1x) (must escape)"
         ],
-        "rewards": [
-            "50 Unique Gold Coin3 Uncommon Explosive Bottle3 Uncommon Bandage25 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Surgeon"
     },
     {
         "name": "Doctor's Orders",
-        "prerequisites": "",
-        "tasks": [
+        "requirements": [
             "Explore Crypts Four Rooms module (1x) (must escape)"
         ],
-        "rewards": [
-            "100 Unique Gold Coin6 Rare Potion of Healing6 Rare Bandage125 Experience"
-        ]
+        "completed": false,
+        "merchant": "Surgeon"
     },
     {
         "name": "Undead Eradication",
-        "prerequisites": "Complete Quest:\"Doctor's Orders\"",
-        "tasks": [
-            "Kill Mummy (10x)Kill Zombie (10x)"
+        "requirements": [
+            "Kill Mummy (10x)",
+            "Kill Zombie (10x)"
         ],
-        "rewards": [
-            "100 Unique Gold Coin1 Rare Reinforced Gloves1 Rare Radiant Cloak125 Experience"
-        ]
+        "completed": false,
+        "merchant": "Surgeon"
     },
     {
         "name": "Prepared For The Unexpected",
-        "prerequisites": "Complete Quest:\"Undead Eradication\"",
-        "tasks": [
+        "requirements": [
             "Use Item Surgical Kit (5x)"
         ],
-        "rewards": [
-            "100 Unique Gold Coin1 Rare Buckled Boots1 Rare Leather Chausses150 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Surgeon"
     },
     {
         "name": "Frost Aid",
-        "prerequisites": "Complete Quest:\"Prepared For The Unexpected\"",
-        "tasks": [
-            "Use Item Bandage in Ice Caverns dungeon (5x) (must escape) (single session)Use Item Surgical Kit in Ice Caverns dungeon (1x) (must escape) (single session)Use Item Potion of Healing in Ice Caverns dungeon (3x) (must escape) (single session)"
+        "requirements": [
+            "Use Item Bandage in Ice Caverns dungeon (5x) (must escape) (single session)",
+            "Use Item Surgical Kit in Ice Caverns dungeon (1x) (must escape) (single session)",
+            "Use Item Potion of Healing in Ice Caverns dungeon (3x) (must escape) (single session)"
         ],
-        "rewards": [
-            "175 Unique Gold Coin1 Epic Shadow Hood1 Epic Turnshoe250 Experience"
-        ]
+        "completed": false,
+        "merchant": "Surgeon"
     },
     {
         "name": "Sanctified Healing",
-        "prerequisites": "Complete Quest:\"Frost Aid\"",
-        "tasks": [
+        "requirements": [
             "Interact with Shrine of Health in Crypts dungeon (2x) (single session)"
         ],
-        "rewards": [
-            "175 Unique Gold Coin1 Epic Dashing Boots1 Epic Ring of Quickness200 Experience"
-        ]
+        "completed": false,
+        "merchant": "Surgeon"
     },
     {
         "name": "Silent Entry",
-        "prerequisites": "Complete Quest:\"Sanctified Healing\"",
-        "tasks": [
+        "requirements": [
             "Interact with Golden Chest (1x)"
         ],
-        "rewards": [
-            "175 Unique Gold Coin1 Epic Rat Pendant2 Epic Gold Ingot200 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Surgeon"
     },
     {
         "name": "Critical Care",
-        "prerequisites": "Complete Quest:\"Silent Entry\"",
-        "tasks": [
+        "requirements": [
             "Use Item Surgical Kit (2x) (must escape) (single session)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Epic Watchman Cloak1 Epic Cloth Pants300 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Surgeon"
     },
     {
         "name": "Purging Darkness",
-        "prerequisites": "Complete Quest:\"Critical Care\"",
-        "tasks": [
-            "Kill Demon Berserker (15x)Kill Demon Centaur (15x)"
+        "requirements": [
+            "Kill Demon Berserker (15x)",
+            "Kill Demon Centaur (15x)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Legend Phoenix Choker1 Legend Frost Amulet350 Experience"
-        ]
+        "completed": false,
+        "merchant": "Surgeon"
     },
     {
         "name": "Stone And Bones",
-        "prerequisites": "Complete Quest:\"Purging Darkness\"",
-        "tasks": [
+        "requirements": [
             "Interact with Cursed Stone Door in Crypts dungeon (3x)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Legend Mystic Gloves1 Legend Light Gauntlets1000 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Surgeon"
     },
     {
         "name": "Creative Space",
-        "prerequisites": "",
-        "tasks": [
-            "Kill Skeleton Mage (3x)Kill Demon Bat (2x)Kill Demon Berserker (1x)"
+        "requirements": [
+            "Kill Skeleton Mage (3x)",
+            "Kill Demon Bat (2x)",
+            "Kill Demon Berserker (1x)"
         ],
-        "rewards": [
-            "75 Unique Gold Coin3 Epic Silver Powder1 Rare Ornate Jazerant50 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Tailor"
     },
     {
         "name": "Quid Pro Quo",
-        "prerequisites": "Complete Quest:\"Creative Space\"",
-        "tasks": [
-            "Fetch Any Rarity Copperlight Attire (1x)Fetch Any Rarity Copperlight Pants (1x)"
+        "requirements": [
+            "Fetch Any Rarity Copperlight Attire (1x)",
+            "Fetch Any Rarity Copperlight Pants (1x)"
         ],
-        "rewards": [
-            "75 Unique Gold Coin1 Rare Shoes of Darkness1 Uncommon Frost Amulet75 Experience"
-        ]
+        "completed": false,
+        "merchant": "Tailor"
     },
     {
         "name": "Sewn in Secrecy",
-        "prerequisites": "Complete Quest:\"Quid Pro Quo\"",
-        "tasks": [
+        "requirements": [
             "Explore Crypts Blood Platforms module (1x) (must escape)"
         ],
-        "rewards": [
-            "75 Unique Gold Coin1 Epic Rubysilver Vestments50 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Tailor"
     },
     {
         "name": "Elegance in Execution",
-        "prerequisites": "",
-        "tasks": [
-            "Kill Bard (1x)Kill Ranger (1x)"
+        "requirements": [
+            "Kill Bard (1x)",
+            "Kill Ranger (1x)"
         ],
-        "rewards": [
-            "125 Unique Gold Coin1 Epic Hand Crossbow1 Epic Lute200 Experience"
-        ]
+        "completed": false,
+        "merchant": "Tailor"
     },
     {
         "name": "Tailored Wellness",
-        "prerequisites": "Complete Quest:\"Elegance in Execution\"",
-        "tasks": [
+        "requirements": [
             "Interact with Shrine of Health in Goblin Caves dungeon (4x)"
         ],
-        "rewards": [
-            "125 Unique Gold Coin1 Epic Ring of Vitality1 Epic Chaperon175 Experience"
-        ]
+        "completed": false,
+        "merchant": "Tailor"
     },
     {
         "name": "Sprucing Up",
-        "prerequisites": "Complete Quest:\"Tailored Wellness\"",
-        "tasks": [
-            "Fetch Any Rarity Old Cloth (8x)Fetch Any Rarity Enchanted Dark Fabric (3x)Fetch Any Rarity Spider Silk (1x)"
+        "requirements": [
+            "Fetch Any Rarity Old Cloth (8x)",
+            "Fetch Any Rarity Enchanted Dark Fabric (3x)",
+            "Fetch Any Rarity Spider Silk (1x)"
         ],
-        "rewards": [
-            "125 Unique Gold Coin1 Epic Mystic Vestments1 Rare Cloak of Darkness200 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Tailor"
     },
     {
         "name": "Cold Shoulder",
-        "prerequisites": "Complete Quest:\"Sprucing Up\"",
-        "tasks": [
+        "requirements": [
             "Survive Ice Caverns dungeon (12x)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Epic Runestone Gloves1 Epic Heavy Gauntlets350 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Tailor"
     },
     {
         "name": "Murmurs Among The Aristocracy",
-        "prerequisites": "Complete Quest:\"Cold Shoulder\"",
-        "tasks": [
-            "Kill Wendigo (10x)Kill Frost Giant Berserker (5x)Kill Frost Giant Shielder (5x)"
+        "requirements": [
+            "Kill Wendigo (10x)",
+            "Kill Frost Giant Berserker (5x)",
+            "Kill Frost Giant Shielder (5x)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Legend Mercurial Cloak1 Legend Radiant Cloak300 Experience"
-        ]
+        "completed": false,
+        "merchant": "Tailor"
     },
     {
         "name": "Infiltrating With Accessories",
-        "prerequisites": "Complete Quest:\"Murmurs Among The Aristocracy\"",
-        "tasks": [
-            "Fetch Any Rarity Wendigo's Sharp Claws (2x)Fetch Any Rarity Glowing Blue Ice Eyes (4x)"
+        "requirements": [
+            "Fetch Any Rarity Wendigo's Sharp Claws (2x)",
+            "Fetch Any Rarity Glowing Blue Ice Eyes (4x)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Legend Wind Locket1 Legend Torq of Soul1000 Experience50 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Tailor"
     },
     {
         "name": "Missing Map",
-        "prerequisites": "",
-        "tasks": [
+        "requirements": [
             "Explore Crypts Barracks module (1x) (must escape)"
         ],
-        "rewards": [
-            "50 Unique Gold Coin3 Uncommon Potion of Protection3 Uncommon Potion of Healing25 Experience"
-        ]
+        "completed": false,
+        "merchant": "Tavern Master"
     },
     {
         "name": "Comes With The Territory",
-        "prerequisites": "Complete Quest:\"Missing Map\"",
-        "tasks": [
-            "Kill Skeleton Footman (5x)Kill Skeleton Guardman (5x)Kill Skeleton Archer (5x)"
+        "requirements": [
+            "Kill Skeleton Footman (5x)",
+            "Kill Skeleton Guardman (5x)",
+            "Kill Skeleton Archer (5x)"
         ],
-        "rewards": [
-            "50 Unique Gold Coin1 Uncommon Crossbow3 Common Bandage25 Experience"
-        ]
+        "completed": false,
+        "merchant": "Tavern Master"
     },
     {
         "name": "Hidden Reserves",
-        "prerequisites": "Complete Quest:\"Comes With The Territory\"",
-        "tasks": [
+        "requirements": [
             "Fetch Any Rarity Ale (5x)"
         ],
-        "rewards": [
-            "50 Unique Gold Coin3 Rare Ale1 Uncommon Adventurer Boots40 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Tavern Master"
     },
     {
         "name": "Building Trust",
-        "prerequisites": "",
-        "tasks": [
-            "Fetch Any Rarity Golden Teeth (2x)Fetch Any Rarity Rusty Broken Sword (2x)Fetch Any Rarity Broken Skull (2x)Fetch Any Rarity Bone (4x)"
+        "requirements": [
+            "Fetch Any Rarity Golden Teeth (2x)",
+            "Fetch Any Rarity Rusty Broken Sword (2x)",
+            "Fetch Any Rarity Broken Skull (2x)",
+            "Fetch Any Rarity Bone (4x)"
         ],
-        "rewards": [
-            "75 Unique Gold Coin1 Rare Loose Trousers3 Uncommon Bandage75 Experience"
-        ]
+        "completed": false,
+        "merchant": "Tavern Master"
     },
     {
         "name": "Retracing The Past",
-        "prerequisites": "Complete Quest:\"Building Trust\"",
-        "tasks": [
-            "Kill Skeleton Mage (3x)Kill Skeleton Champion (1x)Kill Wraith (1x)"
+        "requirements": [
+            "Kill Skeleton Mage (3x)",
+            "Kill Skeleton Champion (1x)",
+            "Kill Wraith (1x)"
         ],
-        "rewards": [
-            "75 Unique Gold Coin1 Rare Riveted Gloves3 Uncommon Potion of Invisibility50 Experience"
-        ]
+        "completed": false,
+        "merchant": "Tavern Master"
     },
     {
         "name": "Oh My Bard",
-        "prerequisites": "Complete Quest:\"Retracing The Past\"",
-        "tasks": [
+        "requirements": [
             "Survive Crypts dungeon (5x)"
         ],
-        "rewards": [
-            "75 Unique Gold Coin3 Uncommon Surgical Kit6 Uncommon Bandage75 Experience10 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Tavern Master"
     },
     {
         "name": "Frozen Gaze",
-        "prerequisites": "",
-        "tasks": [
+        "requirements": [
             "Fetch Any Rarity Glowing Blue Ice Eyes (3x)"
         ],
-        "rewards": [
-            "75 Unique Gold Coin1 Rare Ring of Resolve1 Rare Dark Leather Leggings50 Experience"
-        ]
+        "completed": false,
+        "merchant": "Tavern Master"
     },
     {
         "name": "Frosty Escapes",
-        "prerequisites": "Complete Quest:\"Frozen Gaze\"",
-        "tasks": [
+        "requirements": [
             "Survive Ice Caverns dungeon (5x)"
         ],
-        "rewards": [
-            "75 Unique Gold Coin3 Rare Campfire Kit1 Rare Regal Gambeson75 Experience"
-        ]
+        "completed": false,
+        "merchant": "Tavern Master"
     },
     {
         "name": "A Giant Problem",
-        "prerequisites": "Complete Quest:\"Frosty Escapes\"",
-        "tasks": [
-            "Kill Frost Giant Berserker (3x)Kill Frost Giant Shielder (3x)"
+        "requirements": [
+            "Kill Frost Giant Berserker (3x)",
+            "Kill Frost Giant Shielder (3x)"
         ],
-        "rewards": [
-            "75 Unique Gold Coin1 Rare Viking Sword1 Rare Pavise50 Experience20 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Tavern Master"
     },
     {
         "name": "Dark Disappearances",
-        "prerequisites": "Complete Quest:\"Oh My Bard\"",
-        "tasks": [
-            "Kill Death Skull (15x)Kill Mummy (10x)Kill Giant Dragonfly (5x)"
+        "requirements": [
+            "Kill Death Skull (15x)",
+            "Kill Mummy (10x)",
+            "Kill Giant Dragonfly (5x)"
         ],
-        "rewards": [
-            "125 Unique Gold Coin1 Epic Hounskull1 Epic Dark Leather Leggings175 Experience"
-        ]
+        "completed": false,
+        "merchant": "Tavern Master"
     },
     {
         "name": "The Elite And Their Secrets",
-        "prerequisites": "Complete Quest:\"Dark Disappearances\"",
-        "tasks": [
-            "Kill Skeleton Axeman (5x)Kill Skeleton Spearman (5x)"
+        "requirements": [
+            "Kill Skeleton Axeman (5x)",
+            "Kill Skeleton Spearman (5x)"
         ],
-        "rewards": [
-            "125 Unique Gold Coin1 Epic Champion Armor1 Epic Leather Gloves175 Experience"
-        ]
+        "completed": false,
+        "merchant": "Tavern Master"
     },
     {
         "name": "Loyal Court Wizard",
-        "prerequisites": "Complete Quest:\"The Elite And Their Secrets\"",
-        "tasks": [
+        "requirements": [
             "Explore Crypts Dark Ritual Room A module (1x) (must escape)"
         ],
-        "rewards": [
-            "125 Unique Gold Coin1 Epic Dark Cuirass1 Epic Occultist Hood200 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Tavern Master"
     },
     {
         "name": "Blessings Be",
-        "prerequisites": "Complete Quest:\"Loyal Court Wizard\"",
-        "tasks": [
-            "Interact with Shrine of Health in Crypts dungeon (1x) (must escape) (single session)Interact with Shrine of Protection in Crypts dungeon (1x) (must escape) (single session)Interact with Shrine of Power in Crypts dungeon (1x) (must escape) (single session)Interact with Fountain of Speed in Crypts dungeon (1x) (must escape) (single session)"
+        "requirements": [
+            "Interact with Shrine of Health in Crypts dungeon (1x) (must escape) (single session)",
+            "Interact with Shrine of Protection in Crypts dungeon (1x) (must escape) (single session)",
+            "Interact with Shrine of Power in Crypts dungeon (1x) (must escape) (single session)",
+            "Interact with Fountain of Speed in Crypts dungeon (1x) (must escape) (single session)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Epic Necklace of Peace1 Epic Ring of Survival300 Experience20 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Tavern Master"
     },
     {
         "name": "Protector's Wrath",
-        "prerequisites": "Complete Quest:\"Blessings Be\"",
-        "tasks": [
-            "Kill Demon Berserker (2x)Kill Demon Centaur (3x)Fetch Any Rarity Centaur Hoof (1x)"
+        "requirements": [
+            "Kill Demon Berserker (2x)",
+            "Kill Demon Centaur (3x)",
+            "Fetch Any Rarity Centaur Hoof (1x)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Legend Fox Pendant1 Legend Riveted Gloves350 Experience"
-        ]
+        "completed": false,
+        "merchant": "Tavern Master"
     },
     {
         "name": "Confronting The Darkness",
-        "prerequisites": "Complete Quest:\"Protector's Wrath\"",
-        "tasks": [
-            "Kill Lich (1x)Kill Undead Skeleton in Crypts dungeon (10x)"
+        "requirements": [
+            "Kill Lich (1x)",
+            "Kill Undead Skeleton in Crypts dungeon (10x)"
         ],
-        "rewards": [
-            "300 Unique Gold Coin1 Stash1000 Experience50 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Tavern Master"
     },
     {
         "name": "Cold-Blooded Conflict",
-        "prerequisites": "Complete Quest:\"A Giant Problem\"",
-        "tasks": [
-            "Kill Frost Skeleton Axeman (10x)Kill Frost Skeleton Maceman (10x)"
+        "requirements": [
+            "Kill Frost Skeleton Axeman (10x)",
+            "Kill Frost Skeleton Maceman (10x)"
         ],
-        "rewards": [
-            "125 Unique Gold Coin1 Epic Ring of Courage1 Epic Leather Chausses300 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Tavern Master"
     },
     {
         "name": "Collector Of Trinkets",
-        "prerequisites": "Complete Quest:\"Cold-Blooded Conflict\"",
-        "tasks": [
+        "requirements": [
             "Fetch Any Rarity Primitive Bracelet (15x)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Epic Light Gauntlets1 Epic Mercurial Cloak350 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Tavern Master"
     },
     {
         "name": "Frozen Terror",
-        "prerequisites": "Complete Quest:\"Collector Of Trinkets\"",
-        "tasks": [
-            "Kill Frost Imp (5x)Kill Frost Demon (2x)Kill Frost Wyvern (1x)"
+        "requirements": [
+            "Kill Frost Imp (5x)",
+            "Kill Frost Demon (2x)",
+            "Kill Frost Wyvern (1x)"
         ],
-        "rewards": [
-            "250 Unique Gold Coin1 Legend Stitched Turnshoe1 Legend Grand Brigandine1000 Experience"
-        ]
+        "completed": false,
+        "merchant": "Tavern Master"
     },
     {
         "name": "Closing Time",
-        "prerequisites": "Complete Quest:\"Confronting The Darkness\"",
-        "tasks": [
-            "Kill Zombie in Crypts dungeon (25x)Kill Skeleton Mage in Crypts dungeon (10x)Fetch Any Rarity Intact Skull (5x)"
+        "requirements": [
+            "Kill Zombie in Crypts dungeon (25x)",
+            "Kill Skeleton Mage in Crypts dungeon (10x)",
+            "Fetch Any Rarity Intact Skull (5x)"
         ],
-        "rewards": [
-            "1000 Experience"
-        ]
+        "completed": false,
+        "merchant": "Tavern Master"
     },
     {
         "name": "Chilling Expedition",
-        "prerequisites": "",
-        "tasks": [
-            "Kill Frost Walker (5x)Kill Frost Wolf (3x)Kill Frost Giant Berserker (1x)"
+        "requirements": [
+            "Kill Frost Walker (5x)",
+            "Kill Frost Wolf (3x)",
+            "Kill Frost Giant Berserker (1x)"
         ],
-        "rewards": [
-            "50 Unique Gold Coin1 Uncommon Round Shield1 Uncommon Survival Bow25 Experience"
-        ]
+        "completed": false,
+        "merchant": "The Collector"
     },
     {
         "name": "More Like Home",
-        "prerequisites": "Complete Quest:\"Chilling Expedition\"",
-        "tasks": [
-            "Fetch Any Rarity Ancient Scroll (2x)Fetch Any Rarity Gold Waterpot (2x)Fetch Any Rarity Gold Crown (2x)"
+        "requirements": [
+            "Fetch Any Rarity Ancient Scroll (2x)",
+            "Fetch Any Rarity Gold Waterpot (2x)",
+            "Fetch Any Rarity Gold Crown (2x)"
         ],
-        "rewards": [
-            "50 Unique Gold Coin1 Rare Lantern3 Uncommon Magic Protection Potion25 Experience"
-        ]
+        "completed": false,
+        "merchant": "The Collector"
     },
     {
         "name": "Frosty Pests",
-        "prerequisites": "Complete Quest:\"More Like Home\"",
-        "tasks": [
+        "requirements": [
             "Fetch Any Rarity Kobold's Ear (8x)"
         ],
-        "rewards": [
-            "50 Unique Gold Coin1 Rare Kris Dagger1 Uncommon Rat Pendant40 Experience"
-        ]
+        "completed": false,
+        "merchant": "The Collector"
     },
     {
         "name": "Not Friendly",
-        "prerequisites": "",
-        "tasks": [
+        "requirements": [
             "Kill Player in Ice Caverns dungeon (6x)"
         ],
-        "rewards": [
-            "100 Unique Gold Coin6 Rare Potion of Protection6 Rare Magic Protection Potion3 Rare Surgical Kit150 Experience"
-        ]
+        "completed": false,
+        "merchant": "The Collector"
     },
     {
         "name": "Frost Mountain Ascent",
-        "prerequisites": "Complete Quest:\"Not Friendly\"",
-        "tasks": [
+        "requirements": [
             "Explore Ice Caverns Four Route module (1x) (must escape)"
         ],
-        "rewards": [
-            "100 Unique Gold Coin5 Rare Campfire Kit1 Rare Ring of Survival125 Experience"
-        ]
+        "completed": false,
+        "merchant": "The Collector"
     },
     {
         "name": "Peculiar Collections",
-        "prerequisites": "Complete Quest:\"Frost Mountain Ascent\"",
-        "tasks": [
-            "Fetch Any Rarity Grave Essence (6x)Fetch Any Rarity Moldy Bread (4x)Fetch Any Rarity Wolf Fang (4x)Fetch Any Rarity Wolf Pelt (4x)"
+        "requirements": [
+            "Fetch Any Rarity Grave Essence (6x)",
+            "Fetch Any Rarity Moldy Bread (4x)",
+            "Fetch Any Rarity Wolf Fang (4x)",
+            "Fetch Any Rarity Wolf Pelt (4x)"
         ],
-        "rewards": [
-            "100 Unique Gold Coin1 Rare Wolf Hunter Leggings1 Rare Phoenix Choker150 Experience"
-        ]
+        "completed": false,
+        "merchant": "The Collector"
     },
     {
         "name": "Glacial Conquest",
-        "prerequisites": "Complete Quest:\"Peculiar Collections\"",
-        "tasks": [
+        "requirements": [
             "Kill Undead Skeleton in Ice Caverns dungeon (10x) (must escape) (single session)"
         ],
-        "rewards": [
-            "175 Unique Gold Coin1 Epic Laced Turnshoe1 Epic Padded Leggings200 Experience"
-        ]
+        "completed": false,
+        "merchant": "The Collector"
     },
     {
         "name": "Guiding Light",
-        "prerequisites": "Complete Quest:\"Glacial Conquest\"",
-        "tasks": [
+        "requirements": [
             "Fetch Any Rarity Oil Lantern (7x)"
         ],
-        "rewards": [
-            "175 Unique Gold Coin1 Epic Lantern1 Epic Heater Shield200 Experience"
-        ]
+        "completed": false,
+        "merchant": "The Collector"
     },
     {
         "name": "Morbid Souvenirs",
-        "prerequisites": "Complete Quest:\"Guiding Light\"",
-        "tasks": [
-            "Fetch Any Rarity Wendigo's Hoof (2x)Fetch Any Rarity Wendigo's Sharp Claws (2x)"
+        "requirements": [
+            "Fetch Any Rarity Wendigo's Hoof (2x)",
+            "Fetch Any Rarity Wendigo's Sharp Claws (2x)"
         ],
-        "rewards": [
-            "175 Unique Gold Coin1 Rare Demon Grip Gloves1 Epic Heavy Leather Leggings250 Experience"
-        ]
+        "completed": false,
+        "merchant": "The Collector"
     },
     {
         "name": "Royal Stash",
-        "prerequisites": "Complete Quest:\"Morbid Souvenirs\"",
-        "tasks": [
-            "Fetch Epic Ancient Scroll (4x)Fetch Epic Gold Waterpot (4x)Fetch Epic Gold Crown (4x)"
+        "requirements": [
+            "Fetch Epic Ancient Scroll (4x)",
+            "Fetch Epic Gold Waterpot (4x)",
+            "Fetch Epic Gold Crown (4x)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Epic Forest Boots1 Epic Reinforced Gloves300 Experience"
-        ]
+        "completed": false,
+        "merchant": "The Collector"
     },
     {
         "name": "Wails In The Walls",
-        "prerequisites": "Complete Quest:\"Royal Stash\"",
-        "tasks": [
+        "requirements": [
             "Interact with Golden Door (3x)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Epic Ring of Finesse1 Epic Bardic Pants300 Experience"
-        ]
+        "completed": false,
+        "merchant": "The Collector"
     },
     {
         "name": "Tip From A Green Skin",
-        "prerequisites": "Complete Quest:\"Wails In The Walls\"",
-        "tasks": [
+        "requirements": [
             "Kill Skeleton Warlord (2x)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Legend Sallet1 Legend Mystic Vestments500 Experience"
-        ]
+        "completed": false,
+        "merchant": "The Collector"
     },
     {
         "name": "Chilled Vengeance",
-        "prerequisites": "Complete Quest:\"Morbid Souvenirs\"",
-        "tasks": [
-            "Kill Ice Harpy (8x)Kill Yeti (2x)"
+        "requirements": [
+            "Kill Ice Harpy (8x)",
+            "Kill Yeti (2x)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Epic Forest Boots1 Epic Reinforced Gloves300 Experience"
-        ]
+        "completed": false,
+        "merchant": "The Collector"
     },
     {
         "name": "Bottoms Up",
-        "prerequisites": "Complete Quest:\"Chilled Vengeance\"",
-        "tasks": [
+        "requirements": [
             "Use Item Ale in Ice Caverns dungeon (5x) (single session)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Epic Ring of Finesse1 Epic Bardic Pants300 Experience"
-        ]
+        "completed": false,
+        "merchant": "The Collector"
     },
     {
         "name": "Mountain's Inhabitants",
-        "prerequisites": "Complete Quest:\"Bottoms Up\"",
-        "tasks": [
-            "Fetch Any Rarity Yeti's Teeth (1x)Fetch Any Rarity Extra Thick Pelts (2x)"
+        "requirements": [
+            "Fetch Any Rarity Yeti's Teeth (1x)",
+            "Fetch Any Rarity Extra Thick Pelts (2x)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Legend Sallet1 Legend Mystic Vestments500 Experience"
-        ]
+        "completed": false,
+        "merchant": "The Collector"
     },
     {
         "name": "Froststalker",
-        "prerequisites": "Complete Quest:\"Morbid Souvenirs\"",
-        "tasks": [
-            "Kill Frost Wolf in Ice Caverns dungeon (25x)Kill Frost Walker in Ice Caverns dungeon (10x)Fetch Any Rarity Giant Toe (5x)"
+        "requirements": [
+            "Kill Frost Wolf in Ice Caverns dungeon (25x)",
+            "Kill Frost Walker in Ice Caverns dungeon (10x)",
+            "Fetch Any Rarity Giant Toe (5x)"
         ],
-        "rewards": [
-            "1000 Experience"
-        ]
+        "completed": false,
+        "merchant": "The Collector"
     },
     {
         "name": "Ceremonial Secret",
-        "prerequisites": "",
-        "tasks": [
+        "requirements": [
             "Fetch Any Rarity Ceremonial Dagger (5x)"
         ],
-        "rewards": [
-            "50 Unique Gold Coin1 Uncommon Crystal Sword1 Uncommon Castillon Dagger25 Experience"
-        ]
+        "completed": false,
+        "merchant": "Treasurer"
     },
     {
         "name": "Forbidden Rituals",
-        "prerequisites": "Complete Quest:\"Ceremonial Secret\"",
-        "tasks": [
+        "requirements": [
             "Explore Crypts Old Tomb module (1x) (must escape)"
         ],
-        "rewards": [
-            "50 Unique Gold Coin1 Uncommon Adventurer Tunic1 Uncommon Adventurer Boots25 Experience"
-        ]
+        "completed": false,
+        "merchant": "Treasurer"
     },
     {
         "name": "Echoes of Eternity",
-        "prerequisites": "Complete Quest:\"Forbidden Rituals\"",
-        "tasks": [
+        "requirements": [
             "Kill Wraith (3x)"
         ],
-        "rewards": [
-            "50 Unique Gold Coin5 Common Lockpick1 Rare Tattered Cloak40 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Treasurer"
     },
     {
         "name": "Lies in the Coffins",
-        "prerequisites": "",
-        "tasks": [
+        "requirements": [
             "Explore Crypts Pyramid module (1x) (must escape)"
         ],
-        "rewards": [
-            "75 Unique Gold Coin1 Rare Golden Teeth1 Rare Spellbook50 Experience"
-        ]
+        "completed": false,
+        "merchant": "Treasurer"
     },
     {
         "name": "Silver Lore",
-        "prerequisites": "Complete Quest:\"Lies in the Coffins\"",
-        "tasks": [
+        "requirements": [
             "Fetch Any Rarity Silver Coin (200x)"
         ],
-        "rewards": [
-            "75 Unique Gold Coin10 Unique Gold Coin Purse50 Experience"
-        ]
+        "completed": false,
+        "merchant": "Treasurer"
     },
     {
         "name": "Mimics and Money",
-        "prerequisites": "Complete Quest:\"Silver Lore\"",
-        "tasks": [
-            "Fetch Any Rarity Mimic Tooth (2x)Kill Mimic (7x)"
+        "requirements": [
+            "Fetch Any Rarity Mimic Tooth (2x)",
+            "Kill Mimic (7x)"
         ],
-        "rewards": [
-            "75 Unique Gold Coin1 Rare Bear Pendant1 Rare Ring of Survival75 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Treasurer"
     },
     {
         "name": "Bundle of Bangles",
-        "prerequisites": "Complete Quest:\"Mimics and Money\"",
-        "tasks": [
-            "Fetch Rare Gold Band (1x)Fetch Rare Simple Gold Bangle (1x)Fetch Rare Patterned Gold Bangle (1x)Fetch Rare Dotted Gold Bangle (1x)Fetch Rare Turquoise Gem Bangle (1x)Fetch Rare Light Gold Bangle (1x)Fetch Rare Triple Gem Bangle (1x)Fetch Rare Leaf Gold Bangle (1x)Fetch Rare Slim Bangle (1x)Fetch Rare Glimmer Bangle (1x)Fetch Rare Shine Bangle (1x)"
+        "requirements": [
+            "Fetch Rare Gold Band (1x)",
+            "Fetch Rare Simple Gold Bangle (1x)",
+            "Fetch Rare Patterned Gold Bangle (1x)",
+            "Fetch Rare Dotted Gold Bangle (1x)",
+            "Fetch Rare Turquoise Gem Bangle (1x)",
+            "Fetch Rare Light Gold Bangle (1x)",
+            "Fetch Rare Triple Gem Bangle (1x)",
+            "Fetch Rare Leaf Gold Bangle (1x)",
+            "Fetch Rare Slim Bangle (1x)",
+            "Fetch Rare Glimmer Bangle (1x)",
+            "Fetch Rare Shine Bangle (1x)"
         ],
-        "rewards": [
-            "125 Unique Gold Coin5 Epic Potion of Luck1 Unique Golden Key200 Experience"
-        ]
+        "completed": false,
+        "merchant": "Treasurer"
     },
     {
         "name": "Golden Entry",
-        "prerequisites": "Complete Quest:\"Bundle of Bangles\"",
-        "tasks": [
+        "requirements": [
             "Interact with Golden Door (1x)"
         ],
-        "rewards": [
-            "125 Unique Gold Coin1 Epic Ring of Quickness1 Epic Ring of Wisdom200 Experience"
-        ]
+        "completed": false,
+        "merchant": "Treasurer"
     },
     {
         "name": "Infernal Throne",
-        "prerequisites": "Complete Quest:\"Golden Entry\"",
-        "tasks": [
+        "requirements": [
             "Explore Crypts Demon Throne module (1x) (must escape)"
         ],
-        "rewards": [
-            "125 Unique Gold Coin1 Epic Grimsmile Ring1 Epic Longbow175 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Treasurer"
     },
     {
         "name": "Gold Rush",
-        "prerequisites": "Complete Quest:\"Infernal Throne\"",
-        "tasks": [
+        "requirements": [
             "Interact with Treasure Hoard 10 in Goblin Caves dungeon (3x)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Epic Leather Gloves1 Epic Wanderer Attire350 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Treasurer"
     },
     {
         "name": "Colossal Takedown",
-        "prerequisites": "Complete Quest:\"Gold Rush\"",
-        "tasks": [
+        "requirements": [
             "Kill Cave Troll (1x)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Legend Tattered Cloak1 Legend Rawhide Gloves350 Experience"
-        ]
+        "completed": false,
+        "merchant": "Treasurer"
     },
     {
         "name": "Mystical Gems",
-        "prerequisites": "Complete Quest:\"Colossal Takedown\"",
-        "tasks": [
-            "Fetch Legend Diamond (1x)Fetch Legend Ruby (1x)Fetch Legend Emerald (1x)Fetch Legend Blue Sapphire (1x)"
+        "requirements": [
+            "Fetch Legend Diamond (1x)",
+            "Fetch Legend Ruby (1x)",
+            "Fetch Legend Emerald (1x)",
+            "Fetch Legend Blue Sapphire (1x)"
         ],
-        "rewards": [
-            "1 Unique Gold Coin Chest1000 Experience50 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Treasurer"
     },
     {
         "name": "Inferno's Iron Door",
-        "prerequisites": "Complete Quest:\"Infernal Throne\"",
-        "tasks": [
+        "requirements": [
             "Interact with Iron Door in Crypts dungeon (1x)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Epic Lantern Shield1 Epic Darkgrove Hood350 Experience50 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Treasurer"
     },
     {
         "name": "Within The Casket",
-        "prerequisites": "Complete Quest:\"Inferno's Iron Door\"",
-        "tasks": [
+        "requirements": [
             "Interact with Marvelous Chest in Crypts dungeon (1x)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Legend Ceremonial Staff1 Legend Necklace of Peace350 Experience"
-        ]
+        "completed": false,
+        "merchant": "Treasurer"
     },
     {
         "name": "The Perfect Birthday Gift",
-        "prerequisites": "Complete Quest:\"Within The Casket\"",
-        "tasks": [
+        "requirements": [
             "Fetch Any Rarity Cursed Crown (1x)"
         ],
-        "rewards": [
-            "1 Legend Loose Trousers1 Legend Vigilant Cloak1000 Experience"
-        ]
+        "completed": false,
+        "merchant": "Treasurer"
     },
     {
         "name": "Aiding A Legacy",
-        "prerequisites": "",
-        "tasks": [
+        "requirements": [
             "Fetch Rare Weapon (5x)"
         ],
-        "rewards": [
-            "75 Unique Gold Coin1 Uncommon Castillon Dagger1 Uncommon War Maul1 Uncommon Longbow1 Uncommon Crystal Ball50 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Weaponsmith"
     },
     {
         "name": "Blades of Myth",
-        "prerequisites": "Complete Quest:\"Aiding A Legacy\"",
-        "tasks": [
+        "requirements": [
             "Explore Ice Caverns Pyramid module (1x) (must escape)"
         ],
-        "rewards": [
-            "75 Unique Gold Coin3 Uncommon Trap Disarming Kit3 Rare Potion of Protection50 Experience"
-        ]
+        "completed": false,
+        "merchant": "Weaponsmith"
     },
     {
         "name": "The Search Continues",
-        "prerequisites": "Complete Quest:\"Blades of Myth\"",
-        "tasks": [
-            "Kill Wendigo (3x)Kill Frost Walker (8x)"
+        "requirements": [
+            "Kill Wendigo (3x)",
+            "Kill Frost Walker (8x)"
         ],
-        "rewards": [
-            "75 Unique Gold Coin1 Rare Ring of Courage1 Rare Watchman Cloak75 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Weaponsmith"
     },
     {
         "name": "The Secrets Of Gold",
-        "prerequisites": "",
-        "tasks": [
+        "requirements": [
             "Fetch Any Rarity Gold Ore (6x)"
         ],
-        "rewards": [
-            "125 Unique Gold Coin1 Rare Divine Blade1 Rare Divine Short Sword200 Experience"
-        ]
+        "completed": false,
+        "merchant": "Weaponsmith"
     },
     {
         "name": "Battle Forge",
-        "prerequisites": "Complete Quest:\"The Secrets Of Gold\"",
-        "tasks": [
+        "requirements": [
             "Kill Player in Crypts dungeon (5x)"
         ],
-        "rewards": [
-            "125 Unique Gold Coin1 Epic Castillon Dagger1 Epic Zweihander1 Epic Crystal Sword200 Experience"
-        ]
+        "completed": false,
+        "merchant": "Weaponsmith"
     },
     {
         "name": "An Oath Unbroken",
-        "prerequisites": "Complete Quest:\"Battle Forge\"",
-        "tasks": [
+        "requirements": [
             "Interact with Stone Tomb in Crypts dungeon (20x)"
         ],
-        "rewards": [
-            "125 Unique Gold Coin1 Epic Magic Staff1 Epic Old Shoes1 Epic War Maul175 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Weaponsmith"
     },
     {
         "name": "Warrior's Reckoning",
-        "prerequisites": "Complete Quest:\"An Oath Unbroken\"",
-        "tasks": [
+        "requirements": [
             "Kill Player (10x)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Epic Horseman's Axe1 Epic Morning Star350 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Weaponsmith"
     },
     {
         "name": "Small Delights",
-        "prerequisites": "Complete Quest:\"Warrior's Reckoning\"",
-        "tasks": [
+        "requirements": [
             "Interact with Small Oak Chest in Goblin Caves dungeon (30x)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Legend Lightfoot Boots1 Legend Plate Boots350 Experience"
-        ]
+        "completed": false,
+        "merchant": "Weaponsmith"
     },
     {
         "name": "Pelt Pursuit",
-        "prerequisites": "Complete Quest:\"Small Delights\"",
-        "tasks": [
+        "requirements": [
             "Fetch Any Rarity Troll Pelt (1x)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Legend Leather Chausses1 Legend Plate Pants1000 Experience50 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Weaponsmith"
     },
     {
         "name": "Fire's Compassion",
-        "prerequisites": "",
-        "tasks": [
+        "requirements": [
             "Fetch Any Rarity Campfire Kit (5x)"
         ],
-        "rewards": [
-            "50 Unique Gold Coin1 Uncommon Surgical Kit3 Uncommon Explosive Bottle25 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Woodsman"
     },
     {
         "name": "Invasive Species",
-        "prerequisites": "Complete Quest:\"Fire's Compassion\"",
-        "tasks": [
-            "Kill Demon Dog (5x)Kill Demon Centaur (1x)"
+        "requirements": [
+            "Kill Demon Dog (5x)",
+            "Kill Demon Centaur (1x)"
         ],
-        "rewards": [
-            "50 Unique Gold Coin1 Uncommon Potion of Luck1 Uncommon Heavy Leather Leggings40 Experience"
-        ]
+        "completed": false,
+        "merchant": "Woodsman"
     },
     {
         "name": "Fortune's Guidance",
-        "prerequisites": "Complete Quest:\"Invasive Species\"",
-        "tasks": [
+        "requirements": [
             "Explore Crypts Prisons A module (1x) (must escape)"
         ],
-        "rewards": [
-            "50 Unique Gold Coin1 Uncommon Leather Cap1 Uncommon Dashing Boots25 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Woodsman"
     },
     {
         "name": "Cramped Quarters",
-        "prerequisites": "",
-        "tasks": [
+        "requirements": [
             "Kill Player in Crypts dungeon (6x)"
         ],
-        "rewards": [
-            "100 Unique Gold Coin1 Rare War Hammer1 Rare Crystal Ball150 Experience"
-        ]
+        "completed": false,
+        "merchant": "Woodsman"
     },
     {
         "name": "Explosive Endeavors",
-        "prerequisites": "Complete Quest:\"Cramped Quarters\"",
-        "tasks": [
+        "requirements": [
             "Fetch Any Rarity Explosive Bottle (7x)"
         ],
-        "rewards": [
-            "100 Unique Gold Coin1 Epic Lantern1 Rare Forest Hood125 Experience"
-        ]
+        "completed": false,
+        "merchant": "Woodsman"
     },
     {
         "name": "Absolutely Batty",
-        "prerequisites": "Complete Quest:\"Explosive Endeavors\"",
-        "tasks": [
+        "requirements": [
             "Explore Crypts Waiting Room module (1x) (must escape)"
         ],
-        "rewards": [
-            "100 Unique Gold Coin1 Rare Demonclad Leggings1 Uncommon Round Shield125 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Woodsman"
     },
     {
         "name": "Infernal Champions",
-        "prerequisites": "Complete Quest:\"Absolutely Batty\"",
-        "tasks": [
-            "Kill Demon Centaur (3x)Kill Demon Berserker (2x)Kill Demon Bat (3x)Kill Demon Dog (8x)"
+        "requirements": [
+            "Kill Demon Centaur (3x)",
+            "Kill Demon Berserker (2x)",
+            "Kill Demon Bat (3x)",
+            "Kill Demon Dog (8x)"
         ],
-        "rewards": [
-            "175 Unique Gold Coin1 Epic Occultist Tunic1 Epic Dark Leather Leggings250 Experience"
-        ]
+        "completed": false,
+        "merchant": "Woodsman"
     },
     {
         "name": "Amidst Peril",
-        "prerequisites": "Complete Quest:\"Infernal Champions\"",
-        "tasks": [
+        "requirements": [
             "Survive Crypts dungeon (2x)"
         ],
-        "rewards": [
-            "175 Unique Gold Coin1 Epic Quarterstaff1 Epic Short Sword250 Experience"
-        ]
+        "completed": false,
+        "merchant": "Woodsman"
     },
     {
         "name": "Haunting Presence",
-        "prerequisites": "Complete Quest:\"Amidst Peril\"",
-        "tasks": [
+        "requirements": [
             "Explore Crypts Death Altar module (1x) (must escape)"
         ],
-        "rewards": [
-            "175 Unique Gold Coin1 Rare Gravewolf Gloves1 Epic Rugged Boots500 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Woodsman"
     },
     {
         "name": "Ember's Amidst Frost",
-        "prerequisites": "Complete Quest:\"Haunting Presence\"",
-        "tasks": [
+        "requirements": [
             "Use Item Campfire Kit in Ice Caverns dungeon (12x)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Epic Survival Bow1 Epic Ring of Survival300 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Woodsman"
     },
     {
         "name": "Learning Of The Rebellion",
-        "prerequisites": "Complete Quest:\"Ember's Amidst Frost\"",
-        "tasks": [
-            "Kill Frost Giant Berserker (9x)Kill Frost Giant Shielder (9x)"
+        "requirements": [
+            "Kill Frost Giant Berserker (9x)",
+            "Kill Frost Giant Shielder (9x)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Legend Bardiche1 Legend Heater Shield350 Experience"
-        ]
+        "completed": false,
+        "merchant": "Woodsman"
     },
     {
         "name": "Self-Preservation",
-        "prerequisites": "Complete Quest:\"Learning Of The Rebellion\"",
-        "tasks": [
+        "requirements": [
             "Survive Ice Caverns dungeon (1x)"
         ],
-        "rewards": [
-            "200 Unique Gold Coin1 Legend Ring of Courage1 Legend Ring of Wisdom1000 Experience25 Affinity"
-        ]
+        "completed": false,
+        "merchant": "Woodsman"
     }
 ]
