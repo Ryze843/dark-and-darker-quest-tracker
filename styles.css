@@ -8,17 +8,7 @@ body {
     background-image: url("/images/DADBG.webp");
     background-attachment: fixed; 
     color: rgb(221, 149, 42);
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    height: 100vh;
-    padding: 20px;
     margin: 0;
-    box-sizing: border-box;
-    overflow: -moz-scrollbars-none; /* For older versions of Firefox */
-    -ms-overflow-style: none; /* IE and Edge */
-    overflow-y: scroll; /* Ensure vertical scroll is always enabled */
-    scrollbar-width: none; /* Firefox */
 }
 
 body::-webkit-scrollbar {
@@ -26,6 +16,10 @@ body::-webkit-scrollbar {
 }
 
 .container {
+    width: 100%;
+}
+
+.container2 {
     width: 100%;
 }
 
@@ -49,7 +43,7 @@ button {
     padding: 5px 10px;
     border: 1px solid rgb(221, 149, 42);
     border-radius: 2px;
-    background-color: #00000000;
+    background-color:#0000009a;
     color: rgb(221, 149, 42);
     cursor: pointer;
     margin: 0 5px;
@@ -143,4 +137,52 @@ button:hover {
     margin: 10px 0;
     border-radius: 2px;
     background-color:#0000009a
+}
+
+.map-viewer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.map-tabs {
+    flex: 0 0 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding-right: 10px;
+    border-right: 1px solid rgb(221, 149, 42);
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.map-container img {
+    max-width: 90vh;
+    height: auto;
+    border: 1px solid rgb(221, 149, 42);
+}
+
+.view-quests {
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+    color: inherit;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.view-maps {
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+    color: inherit;
+    margin: 10px 0;
+    cursor: pointer;
 }

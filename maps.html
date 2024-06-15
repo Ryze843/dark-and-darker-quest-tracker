@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark and Darker Maps</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container2">
+        <h1>Dark and Darker Maps</h1>
+        <a class="view-quests" onclick="ViewQuests()">View Quests</a>
+        <div id="map-viewer" class="map-viewer">
+            <div id="map-tabs" class="map-tabs">
+                <button onclick="showMap('/images/Crypt-01.png')">Crypt-01</button>
+                <button onclick="showMap('/images/Crypt-02.png')">Crypt-02</button>
+                <button onclick="showMap('/images/GoblinCave-04.png')">GoblinCave-04</button>
+                <button onclick="showMap('/images/IceCavern-01.png')">IceCavern-01</button>
+                <button onclick="showMap('/images/Inferno-01.png')">Inferno-01</button>
+                <button onclick="showMap('/images/Inferno-02.png')">Inferno-02</button>
+                <button onclick="showMap('/images/Inferno-03.png')">Inferno-03</button>
+            </div>
+            <div id="map-container" class="map-container">
+                <img id="map-image" src="/images/Crypt-01.png" alt="Map Image">
+            </div>
+        </div>
+    </div>
+    <script>
+        function ViewQuests() {
+            const currentUrl = window.location.href;
+            const newUrl = currentUrl.replace('/maps', '');
+            window.location.href = newUrl;
+        }
+    </script>
+    <script src="maps.js"></script>
+</body>
+</html>
